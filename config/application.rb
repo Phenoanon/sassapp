@@ -10,6 +10,7 @@ module Sassapp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.hosts << "port-3000-devtool-cebehe1310787554.preview.codeanywhere.com"
 
     # Configuration for the application, engines, and railties goes here.
     #
